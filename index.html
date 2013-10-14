@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Microurl : python library for url minification." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Microurl</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/MicroPyramid/microurl">View on GitHub</a>
+
+          <h1 id="project_title">Microurl</h1>
+          <h2 id="project_tagline">python library for url minification.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/MicroPyramid/microurl/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/MicroPyramid/microurl/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="microurl" class="anchor" href="#microurl"><span class="octicon octicon-link"></span></a>microurl</h1>
+
+<p>python library for url minification.</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Google
+
+<ul>
+<li>URL Minifier</li>
+</ul>
+</li>
+<li>Bitly
+
+<ul>
+<li>URL Minifier</li>
+</ul>
+</li>
+<li>Supr
+
+<ul>
+<li>URL Minifier</li>
+</ul>
+</li>
+</ul><h2>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h2>
+
+<p>Install microurl via <code>pip &lt;http://www.pip-installer.org/&gt;</code>_</p>
+
+<p>.. code-block:: bash</p>
+
+<pre><code>$ pip install microurl
+</code></pre>
+
+<p>Or, if you want the code that is currently on GitHub</p>
+
+<p>.. code-block:: bash</p>
+
+<pre><code>git clone git://github.com/micropyramid/microurl.git
+cd microurl
+python setup.py install
+</code></pre>
+
+<h2>
+<a name="starting-out" class="anchor" href="#starting-out"><span class="octicon octicon-link"></span></a>Starting Out</h2>
+
+<p>First, you'll want to head over to google or bily or supr and register an application!</p>
+
+<p>After you register, grab your applications <code>Consumer Key</code> and <code>Consumer Secret</code> from the application details tab.</p>
+
+<p>First, you'll want to import your desired minfier from microurl</p>
+
+<p>.. code-block:: python</p>
+
+<pre><code>from microurl import google_mini
+</code></pre>
+
+<h2>
+<a name="basic-usage" class="anchor" href="#basic-usage"><span class="octicon octicon-link"></span></a>Basic Usage</h2>
+
+<p><strong>Function definitions (i.e. google_mini()) can be found by reading over microurl/google.py</strong></p>
+
+<p>.. code-block:: python</p>
+
+<pre><code>minified = google_mini('validurl', 'Google_API_KEY')
+</code></pre>
+
+<p>its as simple as that.</p>
+
+<h2>
+<a name="questions-comments-etc" class="anchor" href="#questions-comments-etc"><span class="octicon octicon-link"></span></a>Questions, Comments, etc?</h2>
+
+<p>Our hope is that microurl is so simple that you'd never <em>have</em> to ask any questions, but if you feel the need to contact us for this (or other) reasons, you can hit us up at <a href="mailto:micropyramid@googlegroups.com">micropyramid@googlegroups.com</a>.</p>
+
+<h2>
+<a name="want-to-help" class="anchor" href="#want-to-help"><span class="octicon octicon-link"></span></a>Want to help?</h2>
+
+<p>microurl is useful, but ultimately only as useful as the people using it (say that ten times fast!). If you'd like to help, write example code, contribute patches, document things on the wiki, tweet about it. Your help is always appreciated!</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Microurl maintained by <a href="https://github.com/MicroPyramid">MicroPyramid</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
